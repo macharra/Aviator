@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aviator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div id="logo">
+      <img src="./images/airplane.png" alt="logo" class="logo">
+    </div>
+    <ul>
+      <li><a href="#home" class="nav-links">Home</a></li>
+      <li><a href="#about" class="nav-links">About</a></li>
+      <li><a href="#contact" class="nav-links">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Aviator</h1>
+    <p>Your ultimate guide to the skies.</p>
+  </header>
+
+  <main>
+    <section class="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Search for flights by number, airline, or departure/arrival times</li>
+        <li>View detailed flight information</li>
+        <li>Search for airports by name or location</li>
+        <li>Access airport information and available facilities</li>
+        <li>Real-time flight tracking</li>
+      </ul>
+    </section>
+
+    <div class="card">
+      <h2>Flight Search</h2>
+      <form id="flight-search">
+        <input type="text" placeholder="Flight Number" />
+        <input type="text" placeholder="Airline" />
+        <input type="text" placeholder="Departure Time" />
+        <input type="text" placeholder="Arrival Time" />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <section id="flight-details">
+      <h2>Flight Details</h2>
+    
+    </section>
+
+    <div class="card">
+      <h2>Airport Search</h2>
+      <form id="airport-search">
+        <input type="text" placeholder="Airport Name or Location" />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <section id="airport-details">
+      <h2>Airport Details</h2>
+      
+    </section>
+
+    <section id="flight-tracking">
+      <h2>Real-Time Flight Tracking</h2>
+      
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
